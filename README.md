@@ -1,5 +1,3 @@
-Sorry, I didn't setup proxy to bypass Cors
-
 ### `npm start`
 
 Runs the app in the development mode.\

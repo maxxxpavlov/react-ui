@@ -18,12 +18,12 @@ import { WarehouseOrderItem } from "./WarehouseOrder";
 import { IPagination } from "./coreTypings";
 /* 
 
-The app is divided into three comonents: Search criteria, sorting options, pagination and orders (result of the search)
+The app is divided into three comonents: Search criteria, sorting options (skipped), pagination and orders (result of the search)
 
 I had a following plan:
   For each component:
-     Build static version
-     Replace static values with values from props 
+     Build a static version
+     Replace the static values with values from props 
      Make component dynamic (state and inverse/direct data flow)
 
 What I Did
